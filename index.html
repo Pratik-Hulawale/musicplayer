@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/163667e94d.js" crossorigin="anonymous"></script>
+    <title>Music Player</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="music-player">
+            <div class="wrapper">
+
+
+                <div class="header">
+                    <h1>Hazy After HOurs</h1><br>
+                    <h2>A. M.</h2>
+                </div>
+
+
+                <div class="image">
+                    <img src="./image/img-1.jfif" alt="image">
+                </div>
+
+
+                <div class="player">
+                    <audio controls id="music">
+                        <source src="./music/music-1.mp3" type="audio/mpeg">
+                        <source src="./music/music-2.mp3" type="audio/mpeg">
+                        <source src="./music/music-3.mp3" type="audio/mpeg">
+
+                </div>
+
+
+                <div class="play-btn">
+                    <button id="for" class="btn"> <i class="fa-solid fa-forward forward  btn  " id="forward"></i></button>
+                    <button id="play" class="btn"> <i class="fa-solid fa-circle-play play  btn  "></i></button>
+                    <button id="back" class="btn"> <i class="fa-solid fa-backward backward btn "></i></button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
